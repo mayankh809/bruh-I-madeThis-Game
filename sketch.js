@@ -59,7 +59,7 @@ function draw(){
         fill("blue")
         textSize(20)
         text("Press SPACE to start!!",120,350)
-        music.play()
+       
     if(keyCode===32){
             gameState = "play"
         }
